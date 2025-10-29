@@ -1,0 +1,454 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "1712003",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "name": "Employee four",
+      "email": "employee4@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "Employee five",
+      "email": "employee5@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": "Employee6 six",
+      "email": "employee6@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 7
+    },
+    {
+      "name": "Employee seven",
+      "email": "employee7@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 8
+    },
+    {
+      "name": "rishabh",
+      "email": "ris@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 9
+    },
+    {
+      "name": "Kash",
+      "email": "kav@gmail.com",
+      "password": "1712003",
+      "role": "employee",
+      "id": 10
+    },
+    {
+      "name": "wdjbe",
+      "email": "swd@gmail.com",
+      "password": "dekne",
+      "role": "employee",
+      "id": 11
+    },
+    {
+      "name": "risk",
+      "email": "risk@gmail.com",
+      "password": "Aa1712003",
+      "role": "employee",
+      "id": 12
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    },
+    {
+      "name": "Scrum F",
+      "id": 4
+    },
+    {
+      "name": "Scrum G",
+      "id": 5
+    },
+    {
+      "name": "Scrum Team h",
+      "id": 6
+    },
+    {
+      "name": "Scrum T",
+      "id": 7
+    },
+    {
+      "name": "Scrum h",
+      "id": 8
+    },
+    {
+      "name": "Scrum Team U",
+      "id": 9
+    },
+    {
+      "name": "Scrum Team U",
+      "id": 10
+    },
+    {
+      "name": "Scrum Team I",
+      "id": 11
+    },
+    {
+      "name": "Scrum t6",
+      "id": 12
+    },
+    {
+      "name": "Scrum t6",
+      "id": 13
+    },
+    {
+      "name": "scrum risk",
+      "id": 14
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-10-29"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-17"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "To Do",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "construction",
+      "description": "making",
+      "status": "To Do",
+      "scrumId": 6,
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "construction",
+      "description": "making",
+      "status": "In Progress",
+      "scrumId": 7,
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "task 4",
+      "description": "ghtr",
+      "status": "In Progress",
+      "scrumId": 8,
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "Construction ",
+      "description": "manage the materials",
+      "status": "In Progress",
+      "scrumId": 4,
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "Management",
+      "description": "manages the events organised",
+      "status": "Done",
+      "scrumId": 6,
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "management",
+      "description": "counts the perday sales",
+      "status": "In Progress",
+      "scrumId": 7,
+      "assignedTo": "7",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "management",
+      "description": "authorieses the work done by labours",
+      "status": "In Progress",
+      "scrumId": 8,
+      "assignedTo": "7",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "title": "management",
+      "description": "completion of daily target",
+      "status": "To Do",
+      "scrumId": 9,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "title": "management",
+      "description": "completion of daily target",
+      "status": "To Do",
+      "scrumId": 10,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "title": "catering",
+      "description": "food",
+      "status": "In Progress",
+      "scrumId": 11,
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "title": "management",
+      "description": "like manage the food",
+      "status": "To Do",
+      "scrumId": 13,
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "title": "backend",
+      "description": "complete the backend work",
+      "status": "Done",
+      "scrumId": 14,
+      "assignedTo": "12",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-10-29"
+        },
+        {
+          "status": "Done",
+          "date": "2025-10-29"
+        }
+      ],
+      "id": 15
+    }
+  ]
+}
